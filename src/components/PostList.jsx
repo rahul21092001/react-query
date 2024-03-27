@@ -102,7 +102,7 @@ const PostList = () => {
         <p className="text-lg text-red-500">{postError.message}</p>
       )}
 
-      <div className="flex items-center justify-center space-x-2">
+      <div className="flex items-center justify-center space-x-2 mb-7">
         <button
           className="px-4 py-2 text-gray-700 bg-gray-200 rounded hover:bg-gray-300"
           onClick={() => setPage((oldPage) => Math.max(oldPage - 1, 0))}
